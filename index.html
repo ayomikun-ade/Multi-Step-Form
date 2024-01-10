@@ -10,7 +10,7 @@
 
 </head>
 <body>
-  <div class="form">
+  <main class="form">
     <div class="form-container">
        <!-- Sidebar start -->
        <div class="form-sidebar">
@@ -54,14 +54,17 @@
         <form>
           <div class="label">
             <label for="name">Name:</label>
+            <p class="error">This field is required</p>
           </div>
           <input type="text" name="name" id="name" required placeholder="e.g. Stephen King">
           <div class="label">
             <label for="email">Email Address:</label>
+            <p class="error">This field is required</p>
           </div>
           <input type="email" name="email" id="email" required placeholder="e.g. stephenking@lorem.com">
           <div class="label">
             <label for="phone">Phone Number:</label>
+            <p class="error">This field is required</p>
           </div>
           <input type="tel" name="phone" id="phone" required placeholder="e.g. +1 234 567 890">
         </form>
@@ -84,26 +87,26 @@
             <img src="./assets/images/icon-arcade.svg" alt="arcade">
             <div class="plan-info chosen">
               <b>Arcade</b>
-              <span class="plan-price">$9/mo</span>
+              <span class="plan-priced">$9/mo</span>
             </div>
           </div>
           <div class="plan-card">
             <img src="./assets/images/icon-advanced.svg" alt="arcade">
             <div class="plan-info">
               <b>Advanced</b>
-              <span class="plan-price">$12/mo</span>
+              <span class="plan-priced">$12/mo</span>
             </div>
           </div>
           <div class="plan-card">
             <img src="./assets/images/icon-pro.svg" alt="arcade">
             <div class="plan-info">
               <b>Pro</b>
-              <span class="plan-price">$15/mo</span>
+              <span class="plan-priced">$15/mo</span>
             </div>
           </div>
         </form>
 
-        <div class="switch">
+        <div class="switcher">
           <p class="monthly sw-active">Monthly</p>
           <label class="switch">
             <input type="checkbox">
@@ -210,12 +213,7 @@
 
       <!-- Step 5 end -->
     </div>
-  </div>
-
-
-
-  
-  
+  </main>
 
 </body>
 </html>
